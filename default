@@ -18,10 +18,10 @@ server {
 
 server {
 	listen 80;
-        server_name naham.sec *.naham.sec;
+        server_name thehack.lab *.thehack.lab;
 
-	if ($host = naham.sec ) {
-            return 301 http://www.naham.sec;
+	if ($host = thehack.lab ) {
+            return 301 http://www.thehack.lab;
         }
 
         root /var/www/training/public;

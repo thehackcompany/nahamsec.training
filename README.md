@@ -9,43 +9,43 @@ You must have docker installed, this can simply be installed using `apt install 
 
 ##### Installation Instructions
 `
-docker build -t nahamsec .
+docker build -t thehack.lab .
 `
 
-`docker run -d -p 80:80 nahamsec`
+`docker run -d -p 80:80 thehack.lab`
 
 #### Add the following entries to your /etc/hosts file
 
-127.0.0.1          naham.sec  
-127.0.0.1          www.naham.sec    
-127.0.0.1          xss.naham.sec  
-127.0.0.1          xss1.naham.sec  
-127.0.0.1          xss2.naham.sec    
-127.0.0.1          xss3.naham.sec  
-127.0.0.1          xss4.naham.sec  
-127.0.0.1          or1.naham.sec  
-127.0.0.1          or2.naham.sec  
-127.0.0.1          csrf.naham.sec  
-127.0.0.1          idor.naham.sec  
-127.0.0.1          lfi.naham.sec  
-127.0.0.1          sqli.naham.sec  
-127.0.0.1          sqli2.naham.sec  
-127.0.0.1          ssrf.naham.sec  
-127.0.0.1          ssrf2.naham.sec  
-127.0.0.1          ssrf3.naham.sec  
-127.0.0.1          ssrf4.naham.sec  
-127.0.0.1          ssrf5.naham.sec  
-127.0.0.1          ssrf6.naham.sec  
-127.0.0.1          ssrf7.naham.sec  
-127.0.0.1          xxe.naham.sec  
-127.0.0.1          xxe2.naham.sec  
-127.0.0.1          upload.naham.sec  
-127.0.0.1          upload2.naham.sec  
-127.0.0.1          rce.naham.sec  
-127.0.0.1          rce2.naham.sec  
-127.0.0.1          rce3.naham.sec
+127.0.0.1          thehack.lab  
+127.0.0.1          www.thehack.lab    
+127.0.0.1          xss.thehack.lab  
+127.0.0.1          xss1.thehack.lab  
+127.0.0.1          xss2.thehack.lab    
+127.0.0.1          xss3.thehack.lab  
+127.0.0.1          xss4.thehack.lab  
+127.0.0.1          or1.thehack.lab  
+127.0.0.1          or2.thehack.lab  
+127.0.0.1          csrf.thehack.lab  
+127.0.0.1          idor.thehack.lab  
+127.0.0.1          lfi.thehack.lab  
+127.0.0.1          sqli.thehack.lab  
+127.0.0.1          sqli2.thehack.lab  
+127.0.0.1          ssrf.thehack.lab  
+127.0.0.1          ssrf2.thehack.lab  
+127.0.0.1          ssrf3.thehack.lab  
+127.0.0.1          ssrf4.thehack.lab  
+127.0.0.1          ssrf5.thehack.lab  
+127.0.0.1          ssrf6.thehack.lab  
+127.0.0.1          ssrf7.thehack.lab  
+127.0.0.1          xxe.thehack.lab  
+127.0.0.1          xxe2.thehack.lab  
+127.0.0.1          upload.thehack.lab  
+127.0.0.1          upload2.thehack.lab  
+127.0.0.1          rce.thehack.lab  
+127.0.0.1          rce2.thehack.lab  
+127.0.0.1          rce3.thehack.lab
 
-Now you can visit http://www.naham.sec in your browser to view the list of challenges
+Now you can visit http://www.thehack.lab in your browser to view the list of challenges
 
 ##### Credits
 
