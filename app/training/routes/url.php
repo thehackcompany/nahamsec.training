@@ -4,33 +4,37 @@
 $split_url = explode(".",$_SERVER["HTTP_HOST"]);
 
 $module = $split_url[0];
+/**
+ * Slides order
+ * Open redirect, IDOR, LFI, CSRF, RCE, UPLOAD, XXE, XSS, SQLi
+ */
 $valid_modules = array(
     'www'                  =>  1,
+    'or1'                  =>  1,
+    'or2'                  =>  1,
+    'idor'                 =>  1,
+    'lfi'                  =>  1,
+    'csrf'                 =>  1,
+    'rce'                  =>  1,
+    'rce2'                  =>  1,
+    'rce3'                  =>  1,
+    'upload'               =>  1,
+    'upload2'               =>  1,
+    'xxe'                  =>  1,
+    'xxe2'                  =>  1,
     'xss'                  =>  1,
     'xss2'                 =>  1,
     'xss3'                 =>  1,
     'xss4'                 =>  1,
-    'or1'                  =>  1,
-    'or2'                  =>  1,
-    'csrf'                 =>  1,
-    'idor'                 =>  1,
-    'lfi'                  =>  1,
     'sqli'                 =>  1,
     'sqli2'                =>  1,
-    'ssrf'                 =>  1,
-    'ssrf2'                =>  1,
-    'ssrf3'                =>  1,
-    'ssrf4'                =>  1,
-    'ssrf5'                =>  1,
-    'ssrf6'                =>  1,
-    'ssrf7'                =>  1,
-    'xxe'                  =>  1,
-    'xxe2'                  =>  1,
-    'upload'               =>  1,
-    'upload2'               =>  1,
-    'rce'                  =>  1,
-    'rce2'                  =>  1,
-    'rce3'                  =>  1,
+    'ssrf'                 =>  0,
+    'ssrf2'                =>  0,
+    'ssrf3'                =>  0,
+    'ssrf4'                =>  0,
+    'ssrf5'                =>  0,
+    'ssrf6'                =>  0,
+    'ssrf7'                =>  0,
 );
 \Controller\Home::$modules = $valid_modules;
 
