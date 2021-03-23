@@ -28,13 +28,13 @@ $valid_modules = array(
     'xss4'                 =>  1,
     'sqli'                 =>  1,
     'sqli2'                =>  1,
-    'ssrf'                 =>  0,
-    'ssrf2'                =>  0,
-    'ssrf3'                =>  0,
-    'ssrf4'                =>  0,
-    'ssrf5'                =>  0,
-    'ssrf6'                =>  0,
-    'ssrf7'                =>  0,
+    // 'ssrf'                 =>  1,
+    // 'ssrf2'                =>  1,
+    // 'ssrf3'                =>  1,
+    // 'ssrf4'                =>  1,
+    // 'ssrf5'                =>  1,
+    // 'ssrf6'                =>  1,
+    // 'ssrf7'                =>  1,
 );
 \Controller\Home::$modules = $valid_modules;
 
