@@ -10,9 +10,9 @@
 <div class="container" style="margin-top:20px;">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-            <h1 class="text-center">Welcome To My Website</h1>
+            <h1 class="text-center">Қош келдің!</h1>
             <div class="text-center">
-                Have you seen this new website called <a href="/?redirect=http://www.google.com">Google</a>?
+                <a href="/?redirect=http://www.google.com">Google</a> деген жаңа вебсайт туралы білесің бе?
             </div>
 
         </div>

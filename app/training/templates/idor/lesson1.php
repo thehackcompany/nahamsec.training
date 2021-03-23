@@ -12,16 +12,16 @@
         <div class="col-md-6 col-md-offset-3">
             <div class="panel panel-default" style="margin-top:20px">
                 <div class="panel-heading">
-                    <h3 class="panel-title">User Settings</h3>
+                    <h3 class="panel-title">Қолданушы параметрлері</h3>
                 </div>
                 <div class="panel-body">
-                    <div><label>Username:</label></div>
+                    <div><label>Қолданушы аты:</label></div>
                     <div><input name="username" class="form-control"></div>
-                    <div style="margin-top:7px"><label>Email:</label></div>
+                    <div style="margin-top:7px"><label>Пошта:</label></div>
                     <div><input name="email" class="form-control"></div>
-                    <div style="margin-top:7px"><label>Telephone Number:</label></div>
+                    <div style="margin-top:7px"><label>Телефон номер:</label></div>
                     <div><input name="tel" class="form-control"></div>
-                    <input style="margin-top:20px" type="submit" class="btn btn-success pull-right" value="Update">
+                    <input style="margin-top:20px" type="submit" class="btn btn-success pull-right" value="Өзгерту">
                 </div>
             </div>
         </div>
