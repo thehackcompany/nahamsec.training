@@ -16,7 +16,7 @@
             <!-- Credits: These labs originally were developed for Udemy course organized by  Nahamsec (twitter: @nahamsec) 
                 I localized and updated the labs to my needs
             -->
-            <h5 class="text-center">Бұл лабораториялық тапсырмалар <a href="https://thehack.kz/course/hacking-101">"Hacking-101"</a> курсына арналып жасалған. Толығырақ <a href="https://thehack.kz">TheHACK</a></h5>
+            <h5 class="text-center">Бұл лабораториялық тапсырмалар <a href="https://thehack.kz/course/web-hacking-0x1">"Web Hacking-0x1"</a> курсына арналып жасалған. Толығырақ <a href="https://thehack.kz">TheHACK</a></h5>
 
             <div class="panel panel-default">
                 <div class="panel-heading">
