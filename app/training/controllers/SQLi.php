@@ -7,9 +7,9 @@ namespace Controller;
 class SQLi
 {
 
-    private static $sql_username = 'nahamsec';
+    private static $sql_username = 'thehack';
     private static $sql_password = 'GtWKcpX3MAmCviGC';
-    private static $db = 'nahamsec';
+    private static $db = 'thehack';
 
     public static function articleCount(){
         if( !isset($_GET["date"]) ){

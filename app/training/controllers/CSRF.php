@@ -8,7 +8,7 @@ class CSRF
 {
 
     public static function reset(){
-        $json = json_decode('{"admin":{"username":"admin","password":"admin","email":"admin@admin.test","notifications":false},"ben":{"username":"ben","password":"ben","email":"ben@nahamsec.test","notifications":false}}',true);
+        $json = json_decode('{"admin":{"username":"admin","password":"admin","email":"admin@admin.test","notifications":false},"ben":{"username":"ben","password":"ben","email":"ben@thehack.kz","notifications":false}}',true);
         self::setData( $json );
         \View::redirect('/');
     }
