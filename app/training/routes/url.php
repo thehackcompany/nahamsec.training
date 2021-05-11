@@ -35,6 +35,7 @@ $valid_modules = array(
     // 'ssrf5'                =>  1,
     // 'ssrf6'                =>  1,
     // 'ssrf7'                =>  1,
+    'bl'                   =>   1,
 );
 \Controller\Home::$modules = $valid_modules;
 
@@ -162,6 +163,9 @@ if( isset($valid_modules[$module]) ) {
         Route::add(array('GET', 'POST'), '/', 'Home@listAll');
     }
 
+    if( $module == 'bl' ) {
+        Route::add(array('GET', 'POST'), '/', 'BL@lesson1');
+    }
 
 }else{
     View::page('invalid');
