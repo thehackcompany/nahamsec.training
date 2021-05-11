@@ -1,5 +1,5 @@
-CREATE database nahamsec;
-USE nahamsec;
+CREATE database thehack;
+USE thehack;
 
 CREATE TABLE `article` (
   `id` int(11) NOT NULL,
@@ -33,7 +33,7 @@ ALTER TABLE `user`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 
-CREATE USER 'nahamsec'@'%' IDENTIFIED WITH mysql_native_password BY 'GtWKcpX3MAmCviGC';
-GRANT SELECT ON `nahamsec`.* TO 'nahamsec'@'%';
+CREATE USER 'thehack'@'%' IDENTIFIED WITH mysql_native_password BY 'GtWKcpX3MAmCviGC';
+GRANT SELECT ON `thehack`.* TO 'thehack'@'%';
 FLUSH PRIVILEGES;
 
